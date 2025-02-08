@@ -24,5 +24,5 @@ def ceasar_cipher(string, shift)
   array_ciphered.join("")
 end
 
-p ceasar_cipher("ABCDEFGHIJ KLMNOPQRSTUVWXYZ", 1)
+p ceasar_cipher("ABCDEFGHIJ KLMNOPQRSTUVWXYZ cuisine", 1)
 p ceasar_cipher("ABCDEFGHIJ KLMNOPQRSTUVWXYZ".downcase, 1)
