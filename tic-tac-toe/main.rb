@@ -60,4 +60,4 @@ while board.line_crossed? == nil
     
 end
 
-p board.check_cross
+p board.line_crossed?
